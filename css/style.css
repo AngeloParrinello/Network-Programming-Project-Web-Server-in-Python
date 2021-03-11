@@ -1,0 +1,28 @@
+#searchbar{
+	margin-left: 100%;
+	padding:15px;
+	border-radius: 50px;
+	position:relative;
+	right:220px;
+}
+
+input[type=text] {
+	width: 70%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+input[type=text]:focus {
+	width: 30%;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.article{
+display: list-item;
+}
